@@ -209,5 +209,18 @@ deployments
 DONT FORGET TO CREATE A `.GITIGNORE`!
 ---
 ```
+# vscode
+.vscode
 
+# hardhat
+artifacts
+cache
+deployments
+node_modules
+coverage
+coverage.json
+typechain
+
+# don't push the environment vars!
+.env
 ```
