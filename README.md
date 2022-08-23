@@ -220,6 +220,7 @@ node_modules
 coverage
 coverage.json
 typechain
+package-lock.json
 
 # don't push the environment vars!
 .env
