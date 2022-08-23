@@ -159,10 +159,10 @@ module.exports = {
 
 ---
 
-Then run this on the shell.
+Then run this on the shell. (For some reason, npm i doesn't like to run this chunk of dependencies, so run it with yarn)
 
 ```shell
-npm i --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
 ```
 
 If you notice, there's a lot of dotenv variables, so let create `.env` file.
